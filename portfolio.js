@@ -4,7 +4,7 @@ export const greetings = {
   name: "Khairoune Aymen",
   title: "Welcome.",
   description:
-    "I am Student / Software Developer, learning Full Stack Web Development. I have experience building Applications with Angular,  Spring Boot,  Java,  Node,  Express and some other cool libraries and frameworks.",
+    "I am passionate Full Stack developer. I have experience building Applications with Angular,  Spring Boot,  Java,  Nodejs,  Express and some other cool libraries and frameworks.",
   resumeLink: "https://khairouneaymen.github.io/Resume/aymenresume.pdf",
 };
 
