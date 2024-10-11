@@ -133,9 +133,11 @@ export const experience = [
     role: "Software Developer Intern",
     company: "Hydatis",
     companylogo: "/img/icons/common/Hydatis.jpg",
-    date: "February 2024 – august 2024 ",
-    desc:
-      "Developed a web platform integrating IoT devices for personal protection with real-time alert management",
+    date: "February 2024 – August 2024 ",
+    descBullets:[
+      "Developed a web platform integrating IoT devices for personal protection with real-time alert management.",
+      "Implemented a scalable microservices architecture to handle large volumes of data efficiently with event sourcing."
+    ]
   },
   {
     role: "Software Developer Intern",
@@ -143,7 +145,8 @@ export const experience = [
     companylogo: "/img/icons/common/Hydatis.jpg",
     date: "July 2023 - September 2023",
     descBullets: [
-      "Contributed to the development and implementation of a KYC (Know Your Customer) project. I played a key role in addressing the challenges associated with manual customer identification and verification processes, ensuring compliance with strict regulatory requirements."
+      "Developed a web application that enables companies to verify the identity and legitimacy of their clients for regulatory compliance and fraud.",
+      "Designed and developed intuitive, user-friendly interfaces using Angular and Tailwind CSS for a seamless onboarding process."
     ],
   },
   {
@@ -151,8 +154,9 @@ export const experience = [
     company: "Hydatis",
     companylogo: "/img/icons/common/Hydatis.jpg",
     date: "June 2022 – august 2022 ",
-    desc:
-      "Developed an Elearning platform for collaboration and sharing tests between students and professors",
+    descBullets: [
+      "Engineered a comprehensive university management system to facilitate the management of teachers, students, courses, and exams."
+    ],
   }
 ];
 
@@ -185,14 +189,7 @@ export const projects = [
       "Developed A web project aiming for a university management system to facilitate the management of teachers, students, courses, and exams.",
     github: "https://github.com/aminhl/SpringBoot-Kaddem-Project",
     tags: ["Java", "Springboot",],
-  },
-  {
-    name: "Devoiry",
-    desc:
-      "As a Software Developer Intern at Hydatis I Developed an Elearning platform for collaboration and sharing tests between students and professors",
-    github: "https://github.com/KhairouneAymen/Plateforme",
-    tags: ["Intern", "Nodejs", "Angular"],
-  },
+  }
 ];
 
 export const feedbacks = [
