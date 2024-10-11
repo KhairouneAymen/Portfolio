@@ -22,11 +22,11 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/webdev.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/webdev.json",
       skills: [
         emoji(
           "⚡ Develop highly interactive Front end / User Interfaces for your web applications.",
@@ -118,7 +118,7 @@ export const educationInfo = [
   {
     schoolName: "Private Higher School of Engineering and Technology",
     subHeader: "Computer Engineering Cycle",
-    duration: "September 2021 - Present",
+    duration: "September 2021 - September 2024",
     desc: "Speciality : Web development",
     descBullets: [
       "  Web Application Development: HTML, CSS, JavaScript, Java, Spring Boot",
@@ -133,9 +133,9 @@ export const experience = [
     role: "Software Developer Intern",
     company: "Hydatis",
     companylogo: "/img/icons/common/Hydatis.jpg",
-    date: "June 2022 – august 2022 ",
+    date: "February 2024 – august 2024 ",
     desc:
-      "Developed an Elearning platform for collaboration and sharing tests between students and professors",
+      "Developed a web platform integrating IoT devices for personal protection with real-time alert management",
   },
   {
     role: "Software Developer Intern",
@@ -143,12 +143,27 @@ export const experience = [
     companylogo: "/img/icons/common/Hydatis.jpg",
     date: "July 2023 - September 2023",
     descBullets: [
-      "actively contributed to the development and implementation of a KYC (Know Your Customer) project. I played a key role in addressing the challenges associated with manual customer identification and verification processes, ensuring compliance with strict regulatory requirements."
+      "Contributed to the development and implementation of a KYC (Know Your Customer) project. I played a key role in addressing the challenges associated with manual customer identification and verification processes, ensuring compliance with strict regulatory requirements."
     ],
   },
+  {
+    role: "Software Developer Intern",
+    company: "Hydatis",
+    companylogo: "/img/icons/common/Hydatis.jpg",
+    date: "June 2022 – august 2022 ",
+    desc:
+      "Developed an Elearning platform for collaboration and sharing tests between students and professors",
+  }
 ];
 
 export const projects = [
+  {
+    name: "Individual Safety Platform (Heelp mee)",
+    desc:
+      "Developed a web platform integrating IoT devices for personal protection with real-time alert management",
+    link: "http://178.32.120.242:8003/landing",
+    tags: ["Java", "Angular", "Kafka", "PostgreSQL", "MongoDB"],
+  },
   {
     name: "KYC (Know your customer)",
     desc:
@@ -167,7 +182,7 @@ export const projects = [
   {
     name: "Esprit Management",
     desc:
-      "I developed A web project aiming for a university management system to facilitate the management of teachers, students, courses, and exams.",
+      "Developed A web project aiming for a university management system to facilitate the management of teachers, students, courses, and exams.",
     github: "https://github.com/aminhl/SpringBoot-Kaddem-Project",
     tags: ["Java", "Springboot",],
   },
